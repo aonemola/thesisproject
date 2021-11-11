@@ -11,5 +11,6 @@ datagroup: happy_default_datagroup {
 persist_with: happy_default_datagroup
 
 explore: worldhappinessreport {
+  from: worldhappinessreport
   label: "World Happiness Report"
 }
