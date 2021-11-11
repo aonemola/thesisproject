@@ -1,7 +1,7 @@
-connection: "happy"
+connection: "tobi_project_thesis"
 
 # include all the views
-include: "/views/**/*.view"
+include: "/looker_happy-master/views/worldhappinessreport.view.lkml"
 
 datagroup: happy_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
